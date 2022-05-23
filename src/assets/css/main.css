@@ -472,16 +472,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 34px;
 }
 
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
 .ml-20 {
   margin-left: 5rem;
-}
-
-.mb-\[34\] {
-  margin-bottom: 34;
 }
 
 .mb-\[34px\] {
@@ -492,16 +484,60 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 5rem;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
 .ml-8 {
   margin-left: 2rem;
 }
 
+.ml-\[\] {
+  margin-left: ;
+}
+
+.ml-\[37\] {
+  margin-left: 37;
+}
+
+.ml-\[375px\] {
+  margin-left: 375px;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[60px\] {
+  margin-bottom: 60px;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-\[700px\] {
+  height: 700px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-full {
@@ -512,14 +548,70 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: row;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .flex-nowrap {
   flex-wrap: nowrap;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
   align-items: center;
 }
 
+.items-stretch {
+  align-items: stretch;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.decoration-dotted {
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+}
+
+.decoration-2 {
+  text-decoration-thickness: 2px;
+}
+
+.decoration-4 {
+  text-decoration-thickness: 4px;
+}
+
+.decoration-8 {
+  text-decoration-thickness: 8px;
 }
